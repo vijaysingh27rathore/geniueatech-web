@@ -106,7 +106,7 @@ export default function ServicesPage() {
           <p className="text-gray-600 text-lg">
             At <span className="text-blue-600 font-semibold">Geniuea Tech</span>,
             we provide end-to-end IT services covering software engineering,
-            cloud, data, security, and consulting. Whether you're a startup or an
+            cloud, data, security, and consulting. Whether you&apos;re a startup or an
             enterprise, we align technology with your goals.
           </p>
         </div>

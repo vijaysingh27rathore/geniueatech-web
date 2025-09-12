@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PortfolioPage() {
   const projects = [
@@ -71,11 +72,13 @@ export default function PortfolioPage() {
               key={index}
               className="bg-white rounded-xl shadow hover:shadow-lg transition transform hover:-translate-y-2"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover rounded-t-xl"
-              />
+              <Image
+  src={project.image}
+  alt={project.title}
+  width={800}
+  height={400}
+  className="w-full h-48 object-cover rounded-t-xl"
+/>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   {project.title}

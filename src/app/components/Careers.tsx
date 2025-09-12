@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -65,11 +66,13 @@ export default function CareersPage() {
             </Link>
           </div>
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80"
-              alt="Career Growth"
-              className="rounded-2xl shadow-lg"
-            />
+            <Image
+  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80"
+  alt="Career Growth"
+  width={800}
+  height={600}
+  className="rounded-2xl shadow-lg"
+/>
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -38,11 +39,13 @@ export default function About() {
 
         {/* Image */}
         <div className="flex justify-center">
-          <img
-            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
-            alt="Team working together"
-            className="rounded-2xl shadow-lg"
-          />
+          <Image
+  src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+  alt="About us"
+  width={800}
+  height={600}
+  className="rounded-2xl shadow-lg"
+/>
         </div>
       </section>
 
