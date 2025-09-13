@@ -6,42 +6,42 @@ import Image from "next/image";
 export default function PortfolioPage() {
   const projects = [
     {
-      image: "https://acropolium.com/img/articles/healthcare-management-system-development/img01.jpg",
+      image: "heath.jpg",
       title: "Healthcare Management System",
       industry: "Healthcare (Human)",
       description:
         "A digital platform to streamline patient records, telemedicine, and hospital workflows.",
     },
     {
-      image: "https://www.shutterstock.com/image-photo/happy-man-vet-doctor-blue-260nw-2498245253.jpg",
+      image: "/pet-care.jpg",
       title: "Pet Care & Wellness App",
       industry: "Healthcare (Pet)",
       description:
         "A mobile app for pet owners to book vet appointments, track vaccinations, and manage pet health.",
     },
     {
-      image: "https://www.shutterstock.com/image-photo/smart-construction-project-management-system-600nw-2378840243.jpg",
+      image: "/construction.jpg",
       title: "Smart Construction Dashboard",
       industry: "Construction",
       description:
         "A web platform for builders to track projects, budgets, and safety compliance in real time.",
     },
     {
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      image: "arch.jpg",
       title: "Architectural 3D Visualization",
       industry: "Architecture",
       description:
         "An immersive visualization tool for architects to showcase 3D models of building designs.",
     },
     {
-      image: "https://d1zruf9db62p8s.cloudfront.net/2025/08/best-ecommerce-platform-for-clothing-store-768x404.webp",
+      image: "/e-commerce.jpg",
       title: "E-Commerce Fashion Platform",
       industry: "E-Commerce",
       description:
         "A scalable e-commerce solution for fashion retailers with AI-driven recommendations.",
     },
     {
-      image: "https://www.jdinstitute.edu.in/media/2021/05/How-to-create-an-influential-interior-design-portfolio-1.jpg",
+      image: "/interior.jpg",
       title: "Interior Design Collaboration Tool",
       industry: "Interior Design",
       description:
