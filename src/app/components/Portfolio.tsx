@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function PortfolioPage() {
   const projects = [
     {
-      image: "heath.jpg",
+      image: "health.jpg",
       title: "Healthcare Management System",
       industry: "Healthcare (Human)",
       description:
