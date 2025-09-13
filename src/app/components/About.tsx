@@ -40,7 +40,7 @@ export default function About() {
         {/* Image */}
         <div className="flex justify-center">
           <Image
-  src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+  src="/about-img.jpg"
   alt="About us"
   width={800}
   height={600}

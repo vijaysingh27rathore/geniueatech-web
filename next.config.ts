@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
       "d1zruf9db62p8s.cloudfront.net",
       "www.jdinstitute.edu.in",
     ], // ✅ allow Unsplash
+
+    unoptimized: true,
   },
   output: "export",
 };

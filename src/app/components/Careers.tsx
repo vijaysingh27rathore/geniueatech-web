@@ -67,7 +67,7 @@ export default function CareersPage() {
           </div>
           <div>
             <Image
-  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80"
+  src="/career-img.jpg"
   alt="Career Growth"
   width={800}
   height={600}
